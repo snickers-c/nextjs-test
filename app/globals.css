@@ -19,3 +19,41 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#result {
+  width: 210px;
+  height: 40px;
+  padding-inline: 10px;
+  /* background: linear-gradient(90deg, rgba(108, 107, 112, 1) 19%, rgba(88, 88, 209, 1) 58%, rgba(26, 173, 203, 1) 100%); */
+  border: 3px black solid;
+  border-radius: 20px;
+  outline: none;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.buttonm {
+  border: 3px black solid;
+  width: 60px;
+  height: 40px;
+  caret-color: transparent;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  border: 10px inset black;
+}
+
+.row {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
