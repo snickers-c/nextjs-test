@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Calculator from "./calc";
 
 export default function Home() {
