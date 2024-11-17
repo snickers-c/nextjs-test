@@ -10,17 +10,17 @@ const Calculator: React.FC = () => {
   };
 
   const clearCalc = () => {
-    setEquation((equa) => '');
+    setEquation('');
   }
 
   const solveEquation = () => {
     const result = eval(equation);
 
     if (!isFinite(result)) {
-      setEquation((equa) => "chyba")
+      setEquation("chyba")
     }
     else {
-      setEquation((equa) => result.toString());
+      setEquation(result.toString());
     }
   }
 
